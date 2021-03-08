@@ -1,0 +1,197 @@
+.container{
+    background-color: transparent;
+    text-align: center;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    padding: 5px;
+    width:350px;
+    /* height: auto; */
+    border: 1px solid black;
+    margin: 25px 50px 75px 50px;
+    }
+#x-img{
+    height: 250px;
+    width: 300;
+}
+img:hover {
+  transform: scaleX(-1);
+}
+
+*{
+    text-align: left;
+    color:black;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: x-large;
+    width: 100%;
+    
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/54/89/40/5489405ee8aa341a3b8024097e08fdc3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* I added hover selector */
+a:hover {
+    background-color: rgb(30, 30, 133);
+    
+}
+header {
+    /* background-color: cyan; */
+    margin-bottom: 40px;
+    width: auto;
+    height: auto;
+
+  }
+  .logo {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 72px;
+    color: #470672;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 10px 0 0 0;
+    justify-content:space-evenly;
+
+
+  }
+  @media all and (min-width: 600px) {
+    header {
+      width: auto;
+      display: auto;
+      justify-content: space-between;
+    }
+      main {
+        padding: 20px 0;
+      }
+      
+      section {
+        margin-bottom: 100px;
+      }
+      
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 0;
+      }
+      
+      section {
+        margin-bottom: 100px;
+      }
+      
+      section.dark-background {  
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin: 80px 0;
+      }
+  
+  h1 {
+    font-size: 28px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 400;
+    color: #403933;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 400;
+    margin: 0 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 500;
+  }
+  
+  p {
+   font-family: 'Nanum Pen Script', cursive;
+   line-height: 1.5em;
+   margin-bottom: 0;
+  }
+  
+  main a {
+      font-weight: 700;
+      text-decoration: none;	
+  }
+  
+  main  a:link { color: #38786a; }
+  main  a:visited { color: #38786a; }
+  main  a:hover { color: #403933; }
+  a:active { color: #403933; }
+  
+  
+  a:hover {
+      text-decoration: underline;	
+  }
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  main img {
+    width: 100%;
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  /* ---  (Desktop) Groups & Items --- */
+  
+  @media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+      width: 100%;
+    }
+    .group {
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+  
+  
+  /* Contact Form Design */
+  
+  form {
+    padding-right: 8px;
+    /* Fixed small sizing issue on the right */
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form input, 
+  form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: skyblue;
+  }
+  #submit:hover{
+    text-decoration: underline;
+    background-color: blue;
+  }
+  #submit{
+      background-color: skyblue;
+  }
+  form textarea {
+    height: 160px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
